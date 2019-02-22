@@ -1,0 +1,63 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+  background-color: #17181c;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  /* width: 97%; */
+  margin: 0.5em auto auto auto;
+}
+
+#wrapper {
+  border: 1px solid #e8e7e3;
+  width: 50%;
+  height: 30em;
+  padding: 0.5em;
+}
+
+#content {
+  background: url('./virus.jpg');
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  height: 90%;
+}
+
+#firstStep {
+  display: none;
+}
+
+#buttonContainer {
+  text-align: right;
+  text-align: -webkit-right;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+#finish {
+  display: none;
+}
+
+#wait {
+  display: none;
+}
+
+#lastText {
+  display: none;
+}
